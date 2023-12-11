@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
+
+
+
+
+.nav-container {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: inline-flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+}
+.nav-logo {
+  margin-left: 50px;
+  font-family:'Lily Script One', cursive;
+  color: white;
+  font-size: 30px;
+}
+
+.nav-menu {
+  display: inline-flex;
+  gap: 50px;
+
+}
+
+.nav-menu-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+  transition: 1s;
+}
+.nav-menu-link:hover {
+  text-decoration: underline;
+}
+.nav-login {
+  margin-right: 50px;
+
+}
+
+
+
+
+
+.container3 {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+footer {
+  background: #333;
+  padding: 70px 0;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h2 {
+  color: #fff;
+}
+
+.footer-section p {
+  color: #8a8a8a;
+  font-size: 0.9em;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid #777;
+}
+
+.footer-bottom p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #8a8a8a;
+}
+

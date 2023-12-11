@@ -1,0 +1,160 @@
+.container1 {
+  margin-top: 100px;
+  width: 100%;
+  height: 1000px;
+  background-image: url("img/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg");
+  background-size: cover;
+  box-shadow: inset black 1px 100px 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#title-text {
+  font-family: "Trirong", serif;
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+}
+
+#slogan-text {
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.btn-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+#btn-book,
+#btn-learn {
+  color: white;
+  text-decoration: none;
+  font-family: "Candara Light", sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#btn-book {
+  background-color: #b098c8;
+  width: 150px;
+  height: 70px;
+  border: none;
+}
+
+#btn-book:hover {
+  background-color: #726085;
+}
+
+#btn-learn {
+  width: 250px;
+  height: 70px;
+  border: 2px solid white;
+  background: none;
+}
+
+#btn-learn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+.container2 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.header-container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.header-container-h1 {
+  font-family: Trirong, sans-serif;
+  font-size: 50px;
+}
+
+.header-container-p {
+  font-family: Georgia,sans-serif;
+  font-size: 20px;
+}
+
+.header-container-keyword {
+  font-family: Trirong,sans-serif;
+  color: gold;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px black;
+
+
+}
+
+.info-content {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.info-block {
+  padding: 20px;
+  width: 300px;
+  height: 600px;
+  box-shadow: 2px 2px 4px lightgray;
+  transition: 1s;
+}
+.info-block:hover {
+  transform: scale(1.1);
+}
+.info-block-img {
+  width: 100%;
+  height: 300px;
+}
+#image1 {
+  background-image: url("img/boxed-water-is-better-yaAGwbkbc-s-unsplash.jpg");
+  background-size: cover;
+}
+#image2 {
+  background-image: url("img/alev-takil-lw3Lqe2K7xc-unsplash.jpg");
+  background-size: cover;
+}
+
+#image3 {
+  background-image: url("img/visualsofdana-T5pL6ciEn-I-unsplash.jpg");
+  background-size: cover;
+}
+
+.info-block-h2 {
+  font-family: Trirong,sans-serif;
+}
+
+.info-block-p {
+  font-family: sans-serif;
+  color: grey;
+  margin-top: auto;
+}
